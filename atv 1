@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        float mn1, mn2, mn3, mn4, mn5, mn6, mn7, mn8;
+        
+        System.out.println ("Digite as 4 notas bimestrais: ");
+        
+        mn1=sc.nextFloat();
+        mn2=sc.nextFloat();
+        mn3=sc.nextFloat();
+        mn4=sc.nextFloat();
+        mn5=sc.nextFloat();
+        mn6=sc.nextFloat();
+        mn7=sc.nextFloat();
+        mn8=sc.nextFloat();
+        
+        System.out.println ("1° bimestre:" + (mn1+mn2)/2f);
+        System.out.println ("2° bimestre:" + (mn3+mn4)/2f);
+        System.out.println ("3° bimestre:" + (mn5+mn6)/2f);
+        System.out.println ("4° bimestre:" + (mn7+mn8)/2f);
+        
+        float nf1 = mn1 + mn2 /2f;
+        float nf2 = mn3 + mn4 /2f;
+        float nf3 = mn5 + mn6 /2f;
+        float nf4 = mn7 + mn8 /2f;
+        
+        System.out.println ("A nota final é: " + (nf1 + nf2 +nf3 +nf4) /4f);
+    }
+}
