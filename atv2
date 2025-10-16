@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+       float cel, far, kel;
+       
+       System.out.println ("Digite o valor a se converter: ");
+       
+       cel = sc.nextFloat();
+       
+       System.out.println("Graus em celcius: " +cel);
+       System.out.println("Graus em farenhait: " +(cel * 9/5) + 32);
+       System.out.println("Graus em kassio: " +(cel + 273.15));
+       
+    }
+}
